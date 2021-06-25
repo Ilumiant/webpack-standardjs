@@ -1,0 +1,17 @@
+{
+  "standard.enable": true,
+  "standard.run": "onType",
+  "standard.autoFixOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "standard.options": {
+    "ignore": [
+      "node_modules/**", "dist/**"
+    ]
+  },
+  "javascript.validate.enable": false
+}
